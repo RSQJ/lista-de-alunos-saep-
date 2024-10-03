@@ -1,0 +1,120 @@
+/* Reset básico para margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #080707;
+    color: #333;
+}
+
+/* Container principal */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(95, 89, 89);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+h2 {
+    text-align: center;
+    color: #ffefef;
+}
+
+/* Formulário de pesquisa */
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #a09999;
+    border-radius: 4px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilização da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #1a1414;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilo das mensagens de status */
+.success {
+    color: green;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+/* Links de edição e exclusão */
+.edit-link, .delete-link {
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.edit-link {
+    background-color: #2196F3;
+    color: white;
+}
+
+.edit-link:hover {
+    background-color: #1976D2;
+}
+
+.delete-link {
+    background-color: #f44336;
+    color: white;
+    margin-left: 10px;
+}
+
+.delete-link:hover {
+    background-color: #d32f2f;
+}
+
+/* Link para cadastrar novo aluno */
+h2 a {
+    text-decoration: none;
+    color: #af5d19;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
